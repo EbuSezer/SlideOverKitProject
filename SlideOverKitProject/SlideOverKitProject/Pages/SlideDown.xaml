@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<t:MenuContainerPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:t="clr-namespace:SlideOverKit;assembly=SlideOverKit"
+             x:Class="SlideOverKitProject.Pages.SlideDown">
+    <NavigationPage.TitleView>
+        <StackLayout>
+        <Label Text="SlideDownView"/>
+        <Button Text="Tıkla"
+                Clicked="btnTikla"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    
+</t:MenuContainerPage>

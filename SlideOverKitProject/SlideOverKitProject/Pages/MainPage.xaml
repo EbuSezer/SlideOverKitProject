@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SlideOverKitProject.Pages.MainPage">
+    <NavigationPage.TitleView>
+        <Label Text="MainPage"/>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Center" Spacing="10">
+            <Button Text="RightSideMasterDetail"
+                    Clicked="btnRightSide"/>
+            <Button Text="SlideUpMenu"
+                    Clicked="btnSlideUp"/>
+            <Button Text="SlideDownMenu"
+                    Clicked="btnSlideDown"/>
+            <Button Text="QuickInner"
+                    Clicked="btnQuickInner"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

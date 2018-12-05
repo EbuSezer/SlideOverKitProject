@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<t:MenuContainerPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:t="clr-namespace:SlideOverKit;assembly=SlideOverKit"
+             x:Class="SlideOverKitProject.Pages.SlideUp">
+    <NavigationPage.TitleView>
+        <Label Text="SlideMenuView"/>
+    </NavigationPage.TitleView>
+    <StackLayout VerticalOptions="Center" Spacing="10" Orientation="Horizontal">
+        <Button Text="Menüyü Göster"
+                    Clicked="btnshowMenu"/>
+        <Button Text="Menüyü Sakla"
+                    Clicked="btnhideMenu"/>
+    </StackLayout>
+</t:MenuContainerPage>
